@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+  background-image: url(https://i.imgur.com/RYnWpZw.jpg);
+  background-size: cover;
+  height: 600;
+  text-align: left;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+header img {
+  border-radius: 70%;
+  border: 7px solid #000;
+}
+
+header img:hover {
+  transform: scale(1.1) rotate(1deg);
+  transition: all .5s;
+}
+
+.nav {
+min-height: 40px;
+background-color: #0499ff;
+padding: 10px;
+font-weight: 600;
+}
+
+.nav li {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.name {
+  display: block;
+  margin-right: auto;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.tag {
+  background-color: #000;
+  display: table;
+  margin: 10px 100px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.tag2 {
+  background-color: #000;
+  display: table;
+  margin: 10px 50px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card {
+  max-width: 500 px;
+  margin: 10px;
+  padding: 50px;
+
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+
+.tag-list {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  color: #000;
+}
+
+.tag-bp {
+  background-color: #E5C1BD;
+}
+
+.tag-b {
+  background-color: #D2D0BA;
+}
+
+.tag-lg {
+  background-color: #B6BE9C;
+}
+
+.tag-mb {
+  background-color: #7B9E87;
+}
+
+.tag-c {
+  background-color: #5E747F;
+}
